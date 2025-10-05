@@ -11,7 +11,7 @@ function ThunderIcon() {
     <motion.svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 60 60"
-      className="absolute left-1/2 -translate-x-1/2 -top-8 h-10 w-10"
+      className="absolute left-1/2 -translate-x-1/2 -top-2 h-10 w-10"
       initial={{ y: -8, opacity: 0 }}
       animate={{ y: [0, -6, 0], opacity: [1, 0.8, 1] }}
       transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}

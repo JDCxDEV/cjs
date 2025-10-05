@@ -167,12 +167,12 @@ function AnimatedBackdrop({ children }: { children?: React.ReactNode }) {
 
 /* 🔁 Rotating Pill Words */
 function RotatingWords() {
-  const words = [
-    "ideas that spark",
-    "designs that move",
-    "builds that ship",
-    "automation that helps",
-  ];
+    const words = [
+        "ideas that ignite change",
+        "designs that convert",
+        "builds that hit goals",
+        "automation that delivers results",
+    ];
   const [i, setI] = React.useState(0);
   React.useEffect(() => {
     const id = setInterval(() => setI((v) => (v + 1) % words.length), 3500);
